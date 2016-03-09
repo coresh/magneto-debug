@@ -9,7 +9,7 @@ $installer = $this;
 $installer->startSetup();
 
 $table = $installer->getConnection()
-    ->newTable($installer->getTable('sheep_debug/requestinfo'))
+    ->newTable($installer->getTable('sheep_debug/request_info'))
     ->addColumn('id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
         'identity' => true,
         'nullable' => false,
