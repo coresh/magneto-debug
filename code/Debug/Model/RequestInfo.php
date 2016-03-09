@@ -490,7 +490,7 @@ class Sheep_Debug_Model_RequestInfo extends Mage_Core_Model_Abstract
 
     protected function _construct()
     {
-        $this->_init('sheep_debug/requestInfo');
+        $this->_init('sheep_debug/request_info');
         $this->design = Mage::getModel('sheep_debug/design');
     }
 
